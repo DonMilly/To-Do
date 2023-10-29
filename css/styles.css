@@ -33,7 +33,7 @@ header {
 } */
 
 .task-button {
-    background-color: #414F30;
+    background-color: inherit;
     border-style: solid;
     color: #F0C15B;;
     border-color: #F0C15B;
@@ -55,12 +55,29 @@ header {
 
 .tasks {
     margin: 2rem;
-    display: inline;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #C5C7C6;
+    padding: 1rem;
 }
 
 .task-item {
     list-style: none;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: #C5C7C6;
+}
+
+.task-item > input {
+    text-align: left;
+}
+
+.task-name {
+    text-align: right;
+}
+
+.archive-task {
+    text-align: center;
+}
+
+.archive-button {
+    border: none;
+    background-color: inherit;
 }
