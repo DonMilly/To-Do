@@ -54,6 +54,11 @@ header {
     text-align: center;
 }
 
+.stat-box {
+    background-color: #F0C15B;
+    border-radius: 15px;
+}
+
 .tasks {
     border-style: solid;
     border-radius: 15px;
