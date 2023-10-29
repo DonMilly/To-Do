@@ -23,16 +23,16 @@ header {
     background-color: #F5F5F5;
     border-style: none;
     border-radius: 12px;
+    width: 100%;
+    margin: auto;
 }
 
-/* #task-input:hover {
-    background-color: #F5F5F5;
-    border-style: solid;
-    border-color: #F0C15B;
-    border-radius: 12px;
-} */
+.task-button-parent {
+    text-align: start;
+}
 
 .task-button {
+
     background-color: inherit;
     border-style: solid;
     color: #F0C15B;;
@@ -48,36 +48,37 @@ header {
     border-radius: 15px;
 }
 
-.stats {
+/* .stats {
     list-style: none;
     text-align: center;
-}
+} */
 
-.tasks {
+/* .tasks {
     margin: 2rem;
     border-style: solid;
     border-radius: 15px;
     border-color: #C5C7C6;
     padding: 1rem;
-}
+} */
 
-.task-item {
+/* .task-item {
     list-style: none;
-}
+} */
 
-.task-item > input {
+/* .task-checkbox {
     text-align: left;
-}
+} */
 
-.task-name {
+/* #task-name {
     text-align: right;
-}
+} */
 
-.archive-task {
-    text-align: center;
-}
+/* #archive-task {
+    text-align: right;
+} */
 
-.archive-button {
+/* .archive-button {
     border: none;
+    
     background-color: inherit;
-}
+} */
