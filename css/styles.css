@@ -50,9 +50,17 @@ header {
 
 .stats {
     list-style: none;
+    text-align: center;
 }
 
-.stats > li {
+.tasks {
+    margin: 2rem;
     display: inline;
-    /* padding: 0.5rem; */
+}
+
+.task-item {
+    list-style: none;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #C5C7C6;
 }
