@@ -17,6 +17,7 @@
 </head>
 
 <body class="background text-center">
+
     <header>
         <div class="container, text-center">
             <h1>To-do</h1>
@@ -29,33 +30,52 @@
             </form>
         </div>
     </header>
+
+    <!-- Tasks -->
     <div class="container" id="taskbox-list">
-        <div class="container">
+
+        <!-- Task Counter -->
+        <div class="container mt-3">
             <div class="row">
                 <ul class="stats col">
                     <li>
-                        <span>remaining</span>
+                        <span>Remaining</span>
                         <span id="remaining-tasks">0</span>
                     </li>
                 </ul>
                 <ul class="stats col">
                     <li>
-                        <span>remaining</span>
-                        <span id="remaining-tasks">0</span>
+                        <span>Completed</span>
+                        <span id="completed-tasks">0</span>
                     </li>
                 </ul>
                 <ul class="stats col">
                     <li>
-                        <span>remaining</span>
-                        <span id="remaining-tasks">0</span>
+                        <span>All</span>
+                        <span id="all-tasks">0</span>
                     </li>
                 </ul>
             </div>
         </div>
 
 
-
+        <!-- Tasks -->
         <div class="tasks row">
+            <ul class="col">
+                <li class="task-item">
+                    <div class="row">
+                        <input type="checkbox" name="task-item" id="1" class="col task-checkbox">
+                        <span class="col" id="task-name">Task 1</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="col" id="archive-task">
+                <button title="archive-task" class="task-button"><i class="fas fa-minus"></i></button>
+            </div>
+        </div>
+
+
+        <!-- <div class="tasks row">
             <ul class="col">
                 <li class="task-item">
                     <div class="row">
@@ -67,7 +87,7 @@
             <div class="col" id="archive-task">
                 <button title="archive-task" class="archive-button">X</button>
             </div>
-        </div>
+        </div> -->
 
 
 

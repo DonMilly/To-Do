@@ -48,34 +48,30 @@ header {
     border-radius: 15px;
 }
 
-/* .stats {
+.stats {
+    margin-top: 3rem;
     list-style: none;
     text-align: center;
-} */
+}
 
-/* .tasks {
-    margin: 2rem;
+.tasks {
     border-style: solid;
     border-radius: 15px;
     border-color: #C5C7C6;
     padding: 1rem;
-} */
+}
 
-/* .task-item {
+.task-item {
     list-style: none;
-} */
+}
 
-/* .task-checkbox {
+#task-name {
     text-align: left;
-} */
+}
 
-/* #task-name {
+#archive-task {
     text-align: right;
-} */
-
-/* #archive-task {
-    text-align: right;
-} */
+}
 
 /* .archive-button {
     border: none;
