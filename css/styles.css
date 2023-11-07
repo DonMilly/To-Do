@@ -13,13 +13,13 @@ header {
     background-color: #F5F5F5;
 }
 
-#taskbox-banner {
+#todo-banner {
     font-family: 'Roboto Condensed';
     text-align: center;
     margin-top: 2rem;
 }
 
-#task-input {
+#todo-input {
     background-color: #F5F5F5;
     border-style: none;
     border-radius: 12px;
@@ -27,11 +27,11 @@ header {
     margin: auto;
 }
 
-.task-button-parent {
+.todo-button-parent {
     text-align: start;
 }
 
-.task-button {
+.general-button {
 
     background-color: inherit;
     border-style: solid;
@@ -40,7 +40,7 @@ header {
     border-radius: 15px;
 }
 
-.task-button:hover {
+.general-button:hover {
     background-color: #414F30;
     border-style: solid;
     color: #F5F5F5;;
@@ -61,6 +61,7 @@ header {
 
 .tasks {
     margin: 0 auto;
+    margin-bottom: 2rem;
     padding: 1rem;
     border-style: solid;
     border-radius: 15px;
