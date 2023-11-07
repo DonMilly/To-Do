@@ -65,7 +65,9 @@ header {
     padding: 1rem;
     border-style: solid;
     border-radius: 15px;
+    /* border-width: 0.3rem; */
     border-color: #F0C15B;
+    background-color: #F0E2C2;
 }
 
 .task-items {
@@ -90,7 +92,8 @@ header {
 
 .closed-tasks {
     color: #464646;
-    border-color: #4D4D4D;
+    border-style: none;
+    /* border-color: #4D4D4D; */
     background-color: #D0D0D0;
     text-decoration: line-through;
 }
@@ -101,9 +104,9 @@ header {
 }
 
 .closed-task-button:hover {
-    background-color: #4D4D4D;
+    background-color: #888787;
     color: #F5F5F5;;
-    border-color: #4D4D4D;
+    border-color: #888787;
 }
 
 
