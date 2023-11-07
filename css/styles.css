@@ -65,7 +65,7 @@ header {
     padding: 1rem;
     border-style: solid;
     border-radius: 15px;
-    border-color: #C5C7C6;
+    border-color: #F0C15B;
 }
 
 .task-items {
@@ -88,7 +88,24 @@ header {
     background-color: inherit;
 } */
 
+.closed-tasks {
+    color: #ffffff;
+    border-color: #414F30;
+    background-color: #414F30;
+    text-decoration: line-through;
+}
+.closed-task-button {
+    background-color: inherit;
+    color: #F5F5F5;;
+    border-color: #F5F5F5;
+}
 
+.closed-task-button:hover {
+    background-color: #F0C15B;
+    color: #414F30;;
+    border-color: #414F30;
+    
+}
 
 
 
