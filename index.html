@@ -22,7 +22,7 @@
         <div class="container, text-center">
             <h1>To-do</h1>
         </div>
-        <div class="container" id="taskbox">
+        <div class="container" id="taskbox-banner">
             <form action="" id="taskbox-form" class="row">
                 <div class="col"></div>
                 <div class="col"><input type="text" name="task-input" id="task-input"></div>
@@ -61,37 +61,21 @@
 
         <!-- Tasks -->
         <div class="tasks row">
-            <ul class="col">
-                <li class="task-item">
-                    <div class="row">
-                        <input type="checkbox" name="task-item" id="1" class="col task-checkbox">
-                        <span class="col" id="task-name">Task 1</span>
-                    </div>
-                </li>
-            </ul>
+            <div class="col">
+                <div class="row task-items">
+                    <input type="checkbox" name="task-item" id="1" class="col  task-checkbox">
+                    <span class="col" id="task-name">Task 1</span>
+                </div>
+            </div>
+            
             <div class="col" id="archive-task">
                 <button title="archive-task" class="task-button"><i class="fas fa-minus"></i></button>
             </div>
         </div>
-
-
-        <!-- <div class="tasks row">
-            <ul class="col">
-                <li class="task-item">
-                    <div class="row">
-                        <input type="checkbox" name="task-item" id="1" class="col task-checkbox">
-                        <span class="col" id="task-name">Task 1</span>
-                    </div>
-                </li>
-            </ul>
-            <div class="col" id="archive-task">
-                <button title="archive-task" class="archive-button">X</button>
-            </div>
-        </div> -->
-
-
-
     </div>
+    <footer>
+        <p class="footer-text"><small>Javascript project by Daniel Milner, written by following tutorial link <a href="https://www.youtube.com/watch?v=y71CdVq5SvI">here</a></small></p>
+    </footer>
 </body>
 
 </html>
