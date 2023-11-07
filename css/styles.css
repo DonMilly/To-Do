@@ -89,22 +89,21 @@ header {
 } */
 
 .closed-tasks {
-    color: #ffffff;
-    border-color: #414F30;
-    background-color: #414F30;
+    color: #464646;
+    border-color: #4D4D4D;
+    background-color: #D0D0D0;
     text-decoration: line-through;
 }
 .closed-task-button {
     background-color: inherit;
-    color: #F5F5F5;;
-    border-color: #F5F5F5;
+    color: #4D4D4D;;
+    border-color: #4D4D4D;
 }
 
 .closed-task-button:hover {
-    background-color: #F0C15B;
-    color: #414F30;;
-    border-color: #414F30;
-    
+    background-color: #4D4D4D;
+    color: #F5F5F5;;
+    border-color: #4D4D4D;
 }
 
 
